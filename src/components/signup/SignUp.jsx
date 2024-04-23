@@ -142,30 +142,30 @@ export default function SignUp() {
                     <div className="col-12 row">
                       <p>Select Image Profile</p>
                       <div className='col-3'>
-                        <img style={{cursor:'pointer'}} src={require('../../assets/face/face1.jpg')} width="100%" alt="face1" onClick={()=>handelSelectImage('face1.jpg')}/>
+                        <img style={{cursor:'pointer'}} src={require('../../../public/face/face1.jpg')} width="100%" alt="face1" onClick={()=>handelSelectImage('face1.jpg')}/>
                       </div>
                       <div className='col-3'>
-                        <img style={{cursor:'pointer'}} src={require('../../assets/face/face2.jpg')} width="100%" alt="face2" onClick={()=>handelSelectImage('face2.jpg')}/>
+                        <img style={{cursor:'pointer'}} src={require('../../../public/face/face2.jpg')} width="100%" alt="face2" onClick={()=>handelSelectImage('face2.jpg')}/>
                       </div>
                       <div className='col-3'>
-                        <img style={{cursor:'pointer'}} src={require('../../assets/face/face3.jpg')} width="100%" alt="face3" onClick={()=>handelSelectImage('face3.jpg')}/>
+                        <img style={{cursor:'pointer'}} src={require('../../../public/face/face3.jpg')} width="100%" alt="face3" onClick={()=>handelSelectImage('face3.jpg')}/>
                       </div>
                       <div className='col-3'>
-                        <img style={{cursor:'pointer'}} src={require('../../assets/face/face4.jpg')} width="100%" alt="face4" onClick={()=>handelSelectImage('face4.jpg')}/>
+                        <img style={{cursor:'pointer'}} src={require('../../../public/face/face4.jpg')} width="100%" alt="face4" onClick={()=>handelSelectImage('face4.jpg')}/>
                       </div>
                     </div>
                     <div className="col-12 row mt-2">
                       <div className='col-3'>
-                        <img style={{cursor:'pointer'}} src={require('../../assets/face/face5.jpg')} width="100%" alt="face5" onClick={()=>handelSelectImage('face5.jpg')}/>
+                        <img style={{cursor:'pointer'}} src={require('../../../public/face/face5.jpg')} width="100%" alt="face5" onClick={()=>handelSelectImage('face5.jpg')}/>
                       </div>
                       <div className='col-3'>
-                        <img  style={{cursor:'pointer'}} src={require('../../assets/face/face6.jpg')} width="100%" alt="face6" onClick={()=>handelSelectImage('face6.jpg')}/>
+                        <img  style={{cursor:'pointer'}} src={require('../../../public/face/face6.jpg')} width="100%" alt="face6" onClick={()=>handelSelectImage('face6.jpg')}/>
                       </div>
                       <div className='col-3'>
-                        <img style={{cursor:'pointer'}} src={require('../../assets/face/face7.jpg')} width="100%" alt="face7" onClick={()=>handelSelectImage('face7.jpg')}/>
+                        <img style={{cursor:'pointer'}} src={require('../../../public/face/face7.jpg')} width="100%" alt="face7" onClick={()=>handelSelectImage('face7.jpg')}/>
                       </div>
                       <div className='col-3'>
-                        <img style={{cursor:'pointer'}} src={require('../../assets/face/face8.jpg')} width="100%" alt="face8" onClick={()=>handelSelectImage('face8.jpg')}/>
+                        <img style={{cursor:'pointer'}} src={require('../../../public/face/face8.jpg')} width="100%" alt="face8" onClick={()=>handelSelectImage('face8.jpg')}/>
                       </div>
                     </div>
                       {errors.ErrorImage && (
