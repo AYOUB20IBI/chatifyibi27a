@@ -326,7 +326,7 @@ function Conversation() {
                                   ) : (
                                     <>
                                       <img
-                                        src={`/public/face/${user.image}`}
+                                        src={`/face/${user.image}`}
                                         className="rounded-circle user_img"
                                         alt="face"
                                       />
@@ -393,7 +393,7 @@ function Conversation() {
                                   />
                                 ) : (
                                   <img
-                                    src={`/public/face/${user.receiver.image}`}
+                                    src={`/face/${user.receiver.image}`}
                                     className="rounded-circle user_img"
                                     alt="face1"
                                   />
@@ -459,7 +459,7 @@ function Conversation() {
                                 ) : (
                                   <>
                                     <img
-                                      src={`/public/face/${user.image}`}
+                                      src={`/face/${user.image}`}
                                       className="rounded-circle user_img"
                                       alt="face1"
                                     />
@@ -585,7 +585,7 @@ function Conversation() {
                                 onClick={() =>
                                   ShowInformation(selectedUser._id)
                                 }
-                                src={`/public/face/${selectedUser.image}`}
+                                src={`/face/${selectedUser.image}`}
                                 className="rounded-circle user_img"
                                 alt="face1"
                               />
@@ -659,7 +659,7 @@ function Conversation() {
                                 ) : (
                                   <>
                                     <img
-                                      src={`/public/face/${message.user.image}`}
+                                      src={`/face/${message.user.image}`}
                                       className="rounded-circle user_img_msg"
                                       alt="face1"
                                     />
