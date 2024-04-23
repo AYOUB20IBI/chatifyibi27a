@@ -1,5 +1,9 @@
 #section_hero{
     margin-top: 7rem;
+    padding-left: 3rem !important;
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+    padding-right: 3rem !important;
 }
 
 #section_hero #image{
@@ -48,4 +52,31 @@
 #section_hero ul {
     list-style: none;
     padding: 0;
+}
+
+
+@media (max-width:400px){
+    #section_hero #title {
+        font-size: 1.9rem;
+    }
+    #section_hero #btn{
+        width: 100%;
+    }
+
+    #section_hero{
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+    
+}
+
+
+@media (min-width: 400px) and (max-width: 500px) {
+    #section_hero #btn{
+        width: 100%;
+    }
+    #section_hero{
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
 }

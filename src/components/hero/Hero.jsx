@@ -8,7 +8,7 @@ export default function Hero() {
     document.title = "CHATIFY IBI27A | Home";
   }, []);
   return (
-    <div className="p-5" id={`${styleHero.section_hero}`} >
+    <div  id={`${styleHero.section_hero}`} >
       <div className="container">
         <div className="row align-items-center justify-content-between">
           <div className="col-12 col-lg-6">
