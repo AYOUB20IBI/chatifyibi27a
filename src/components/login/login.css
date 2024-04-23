@@ -1,0 +1,61 @@
+
+.login .card{
+  height: 100%;
+  background: #ffffff52;
+  backdrop-filter: blur(20px);
+  border: 1px solid #ffffff63;
+  box-shadow: 0px 0px 20px 0px #00000052;
+}
+
+.login .card .card-body .title{
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.login .card .card-body .form-control:focus{
+  box-shadow: none;
+  border: 2px solid #00000063;
+}
+
+.login .card .card-body .form-check label ,.login .card .card-body .para{
+  color: #000000;
+}
+
+.login .card .card-body .para{
+  font-weight: 600;
+}
+
+.login .card .card-body .para a{
+  color: #000000;
+}
+.login .card .card-body .para a:hover{
+  color: #ff9900;
+}
+
+.login .card .card-body .btn{    
+  font-weight: 700;
+  background: #FF9800;
+  border: none;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.login .card .card-body .btn:hover{
+  background: #FF5722;
+  transition: all 0.3s;
+}
+
+.login #left-section{
+  color: #fff;
+}
+
+.login #left-section h2{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.login #left-section p{
+  font-weight: 400;
+  font-size: 19px;
+}

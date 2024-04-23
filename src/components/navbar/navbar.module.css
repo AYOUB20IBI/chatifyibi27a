@@ -1,0 +1,110 @@
+.navbar_back{
+    background: linear-gradient(90deg, #ffbd3929 0, #fa9531 100%);
+    height: 80px;
+    margin: 20px;
+    border-radius: 16px;
+    padding: 0.5rem;
+
+}
+/* #fixed_top,#navbar_backv2{
+    left: 0;
+    background: #ffffffbd;
+} */
+
+#navbar_backv2{
+    z-index: 100;
+}
+
+.btn_toggel{
+    display: none;
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+}
+
+.btn_close{
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+}
+
+#navbar_backv2 .nav_link,#fixed_top .nav_link{
+    color: #000;
+    font-weight: 500;
+    position: relative;
+}
+
+
+
+
+#login_btn,#singup_btn{
+    color: #fff;
+    font-weight: 500;
+}
+
+#show_login{
+    display: none;
+}
+#show_login_mini{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#dropdownStyle{
+    position: static;
+}
+#userdropdown{
+    background: rgb(255, 255, 255);
+    backdrop-filter: blur(10px);
+    border: none;
+    /* left: -7rem; */
+    /* left: 75%;
+    max-width: 300px;
+    width: 300px; */
+}
+
+@media (min-width:991px){
+
+    .nav_link:hover:before,.nav_link.active::before{
+        width: 100%;
+        visibility: visible;
+    }
+}
+
+
+
+
+@media (max-width:991px){
+    .btn_toggel{
+        display: block;
+    }
+    #show_login{
+        display: block;
+    }
+    #show_login_mini{
+        display: none;
+    }
+
+}
+
+
+
+#btn_get_started{
+    background: linear-gradient(90deg, #ffffff 0, #ffffff 100%);
+    color: #4e4d4d;
+    border: none;
+    outline: none;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+#btn_get_started:hover{
+    background: linear-gradient(90deg, #397fff 0, #fa9531 100%);
+    color: #fff;
+}
+
+

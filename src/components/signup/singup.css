@@ -1,0 +1,67 @@
+/* .singup{
+    background: linear-gradient(#ff000040, #0000ff61) 0% 0% / cover no-repeat, url(../../assets/images/img6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} */
+
+.singup .card{
+    height: 100%;
+    background: #ffffff52;
+    backdrop-filter: blur(20px);
+    border: 1px solid #ffffff63;
+    box-shadow: 0px 0px 20px 0px #00000052;
+}
+
+.singup .card .card-body .title{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.singup .card .card-body .form-control:focus{
+    box-shadow: none;
+    border: 2px solid #00000063;
+}
+
+.singup .card .card-body .form-check label ,.singup .card .card-body .para{
+    color: #000000;
+}
+
+.singup .card .card-body .para{
+    font-weight: 600;
+}
+
+.singup .card .card-body .para a{
+    color: #000000;
+}
+.singup .card .card-body .para a:hover{
+    color: #ff9100;
+}
+
+.singup .card .card-body .btn{    
+    font-weight: 700;
+    background: #FF9800;
+    border: none;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.singup .card .card-body .btn:hover{
+    background: #FF5722;
+    transition: all 0.3s;
+}
+
+.singup #left-section{
+    color: #fff;
+}
+
+.singup #left-section h2{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.singup #left-section p{
+    font-weight: 400;
+    font-size: 19px;
+}

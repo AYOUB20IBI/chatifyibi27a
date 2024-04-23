@@ -1,0 +1,16 @@
+#Copyrights{
+    border-top: 1px solid #a9a9a9a8;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#Copyrights span{
+    color: #FF9800;
+    font-weight: 700;
+}
+
+#Copyrights #list_security li a {
+    text-decoration: none;
+    color: #FF9800;
+    font-size: 1rem;
+}
