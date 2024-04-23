@@ -88,7 +88,7 @@ export default function SignUp() {
   return (
     <>
     <section className="py-3 py-md-5 py-xl-8 singup" style={{marginTop:'6rem'}}>
-      <div className="container p-5">
+      <div className="container">
         <div className="row gy-4 align-items-center justify-content-center">
           <div className="col-12 col-md-6 col-xl-5">
             <div className="card rounded-4">
