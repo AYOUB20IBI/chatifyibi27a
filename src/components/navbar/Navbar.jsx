@@ -41,6 +41,10 @@ function Navbar() {
                     className={`nav-link ${style.active} mx-lg-2 ${style.nav_link}`}
                     aria-current="page"
                     to="/"
+                    onClick={() => {
+                      document.getElementById('offcanvasNavbar').classList.remove('show');
+                    }}
+                    aria-label="Close"
                   >
                     <i className="bi bi-house-door-fill me-1"></i> Home
                   </Link>
@@ -49,6 +53,10 @@ function Navbar() {
                   <Link
                     className={`nav-link mx-lg-2 ${style.nav_link}`}
                     to="/about"
+                    onClick={() => {
+                      document.getElementById('offcanvasNavbar').classList.remove('show');
+                    }}
+                    aria-label="Close"
                   >
                     <i className="bi bi-person-fill me-1"></i> About
                   </Link>
@@ -57,6 +65,10 @@ function Navbar() {
                   <Link
                     className={`nav-link mx-lg-2 ${style.nav_link}`}
                     to="/contact"
+                    onClick={() => {
+                      document.getElementById('offcanvasNavbar').classList.remove('show');
+                    }}
+                    aria-label="Close"
                   >
                     <i className="bi bi-envelope-at-fill me-1"></i> Contact
                   </Link>
@@ -65,6 +77,10 @@ function Navbar() {
                   <Link
                     className={`nav-link mx-lg-2 ${style.nav_link}`}
                     to="/ourteam"
+                    onClick={() => {
+                      document.getElementById('offcanvasNavbar').classList.remove('show');
+                    }}
+                    aria-label="Close"
                   >
                     <i className="bi bi-three-dots me-1"></i> More
                   </Link>
